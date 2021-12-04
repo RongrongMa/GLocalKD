@@ -29,7 +29,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.model_selection import StratifiedKFold
 
 def arg_parse():
-    parser = argparse.ArgumentParser(description='RND Arguments.')
+    parser = argparse.ArgumentParser(description='GLocalKD Arguments.')
     parser.add_argument('--datadir', dest='datadir', default ='dataset', help='Directory where benchmark is located')
     parser.add_argument('--DS', dest='DS', default ='AIDS', help='dataset name')
     parser.add_argument('--max-nodes', dest='max_nodes', type=int, default=0, help='Maximum number of nodes (ignore graghs with nodes exceeding the number.')
