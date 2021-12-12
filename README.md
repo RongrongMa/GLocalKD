@@ -18,3 +18,14 @@ For HSE, p53, MMP and PPAR-gamma, run the following code.
 For hERG, run the following code.
 
 	python main_smiles.py
+
+
+## Citation
+```bibtex
+@inproceedings{ma2022deep,
+  title={Deep Graph-level Anomaly Detection by Glocal Knowledge Distillation},
+  author={Ma, Rongrong and Pang, Guansong and Chen, Ling and van den Hengel, Anton},
+  booktitle={WSDM '22: The Fifteenth ACM International Conference on Web Search and Data Mining},
+  year={2022}
+}
+```
